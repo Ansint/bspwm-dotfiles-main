@@ -5,7 +5,7 @@ BASE_PACKAGES = [
     "automake", "blueman", "bluez", "bluez-utils", "dunst", "fakeroot", "feh", "firefox",
     "fish", "dpkg", "gcc", "gedit", "git", "gnu-netcat", "htop", "btop", "nano", "lxappearance",
     "mat2", "mpd", "mpv", "thunar", "ncmpcpp", "neofetch", "network-manager-applet", "nitrogen",
-    "pamixer", "papirus-icon-theme", "pavucontrol", "polybar", "autoconf", "mpc", "pulseaudio",
+    "pamixer", "papirus-icon-theme", "pavucontrol", "polybar", "autoconf", "mpc", "go",
     "pulseaudio-alsa", "python-pyalsa", "ranger", "redshift", "reflector", "rofi", "rofi-calc", "calcurse",
     "rofi-emoji", "scrot", "sudo", "slop", "tree", "unrar", "zip", "unzip", "uthash", "xarchiver",
     "xfce4-power-manager", "xfce4-settings", "xorg-xbacklight", "zathura", "zathura-djvu", "zathura-pdf-mupdf",
@@ -17,19 +17,19 @@ BASE_PACKAGES = [
 ]
 
 DEV_PACKAGES = [
-    "screenkey", "timeshift", "pinta", "kdenlive", "wireshark-qt",
-    "filezilla", "ghex", "chromium", "keepassxc", "gufw", "python-pywal",
-    "bleachbit", "veracrypt", "homebank", "gtkhash", "gnome-firmware", "touche", "dconf-editor",
+    "screenkey", "timeshift", "pinta", "kdenlive", 
+    "filezilla", "ghex", "chromium",  "gufw", "python-pywal",
+    "bleachbit", "homebank", "gtkhash", "gnome-firmware", "touche", "dconf-editor",
     "neovim", "telegram-desktop", "tmux", "youtube-dl", "code", "cowsay",
     "deluge-gtk", "flameshot", "sqlitebrowser", "obsidian", "python-pip", "bpython", "ipython", "cloc",
 ]
 
 AUR_PACKAGES = [
-    "cava", "i3lock-color", "ptpython"
+    "cava", "i3lock-color", "ptpython", "yandex-music" 
 ]
 
 GNOME_OFFICIAL_TOOLS = [
-    "evince", "gnome-calculator", "gnome-disk-utility", "gucharmap",
+    "evince", "gnome-disk-utility", "gucharmap",
     "gthumb", "gnome-clocks"
 ]
 
